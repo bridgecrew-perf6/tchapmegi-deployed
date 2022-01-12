@@ -1,0 +1,61 @@
+.button {
+	font-weight: 700;
+	font-size: 1.3rem;
+	letter-spacing: 0.05em;
+	color: #ec712e;
+	/* display: -webkit-box;
+    display: -ms-flexbox; */
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #fff;
+	width: 10.6rem;
+	height: 3rem;
+	border-radius: 1.8rem;
+	-webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	/* margin: 0px; */
+    border: 1px solid #E5E7EB;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button:hover {
+	background: #ec712e;
+	color: #fff;
+}
+
+.edit-btn {
+	font-weight: 600;
+	font-size: 1.3rem;
+	letter-spacing: 0.05em;
+	color: #ec712e;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #fff;
+	width: 9rem;
+	height: 3rem;
+	border-radius: 1.8rem;
+	-webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+    border: 1px solid #E5E7EB;
+    cursor: pointer;	
+}
+
+.edit-btn:hover {
+	background: #ec712e;
+	color: #fff;
+}

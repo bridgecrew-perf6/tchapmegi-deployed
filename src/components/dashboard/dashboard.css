@@ -1,0 +1,30 @@
+.dashboard {
+	/* margin-top: 5rem; */
+	width: 100%;
+}
+
+.dashboard__wrap {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+}
+
+.dashboard_heading {
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	margin-top: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.dashboard__wrap {
+		width: 100%;
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 900px;
+	}
+}

@@ -1,0 +1,14 @@
+import { Projects } from '../components/projects';
+import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
+import { bindActionCreators } from 'redux';
+
+const mapStateToProps = state => {
+    return {
+        state: state.projects
+    };
+};
+
+let ProjectContainer = withRouter(connect(mapStateToProps, null)(Projects));
+
+export default ProjectContainer;

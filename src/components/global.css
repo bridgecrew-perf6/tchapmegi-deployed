@@ -1,0 +1,88 @@
+.button {
+	font-weight: 700;
+	font-size: 1.3rem;
+	letter-spacing: 0.05em;
+	color: #ec712e;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #fff;
+	width: 10.6rem;
+	height: 3rem;
+	border-radius: 1.8rem;
+	-webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	/* margin: 0px; */
+    border: 1px solid #E5E7EB;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button:hover {
+	background: #ec712e;
+	color: #fff;
+}
+
+.edit-btn {
+	font-weight: 600;
+	font-size: 0.8rem;
+	letter-spacing: 0.05em;
+	color: #ec712e;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #fff;
+	min-width: 6rem;
+	height: 2rem;
+	border-radius: 1.8rem;
+	-webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+    border: 1px solid #E5E7EB;
+    cursor: pointer;	
+}
+
+.button {
+	font-size: 0.8rem;
+	width: 8rem;
+	height: 2.2rem;
+}
+
+.edit-btn:hover {
+	background: #ec712e;
+	color: #fff;
+}
+
+.delete-btn {
+	color: red;
+}
+.delete-btn:hover {
+	background: red;
+}
+
+.view-btn {
+	color: green;
+}
+.view-btn:hover {
+	background: green;
+}
+
+.custom-disabled {
+	background: #cccccc;
+	color: #666666;
+}
+.custom-disabled:hover {
+	background: #cccccc;
+	color: #666666;
+}
